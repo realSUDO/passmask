@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="media/logo.svg" alt="passmask logo" width="400"/>
+  <img src="media/logo.png" alt="passmask logo" width="400"/>
   <p>A Neovim plugin that automatically masks sensitive values in <code>.env</code> files.</p>
 </div>
 

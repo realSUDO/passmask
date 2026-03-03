@@ -7,7 +7,7 @@
 
   <g transform="translate(200, 110)">
     
-    <rect class="cls-green" x="-26" y="-76" width="52" width="52" height="11" rx="2"/>
+    <rect class="cls-green" x="-26" y="-76" width="52" height="11" rx="2"/>
     <rect class="cls-green" x="-26" y="-58" width="52" height="11" rx="2"/>
     
     <path class="cls-green" d="M0,-24 C50,-24 100,-48 100,-48 C100,-48 120,48 50,48 C20,48 10,24 0,24 C-10,24 -20,48 -50,48 C-120,48 -100,-48 -100,-48 C-100,-48 -50,-24 0,-24 Z"/>

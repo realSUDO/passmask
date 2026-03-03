@@ -22,11 +22,14 @@ function M.mask_buffer(bufnr)
 			local eq_col = line:find("=")
 
 			if eq_col then
-				local masked = string.rep("*", #value)
+				local value_len = #value
+				local masked = string.rep("x", value_len)
 
 				vim.api.nvim_buf_set_extmark(bufnr, M.ns, i - 1, eq_col, {
+					end_col = eq_col + value_len,
 					virt_text = { { masked, "Comment" } },
 					virt_text_pos = "overlay",
+					hl_mode = "replace",
 				})
 			end
 		end
